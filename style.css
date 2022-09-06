@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    background-color: black;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+h1 {
+    
+    font-size: 2.5rem;
+    margin-bottom: 5rem;
+    padding: 1rem 1rem;
+}
+h2 {
+    font-size: 2rem;
+    padding: 1rem 1rem;
+}
+p {
+    font-size: 1rem;
+}
+img {
+    width: 7rem;
+}
+.choices>div {
+    display: inline-block;
+    margin: 0 1rem;
+    transition: all 0.4s ease-in-out;
+}
+.choices>div:hover {
+    transform: scale(115%);
+    cursor: pointer;
+}
