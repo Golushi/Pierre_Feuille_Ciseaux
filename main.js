@@ -1,5 +1,4 @@
-let wins = 0;
-let loses = 0;
+let wins = 0; let loses = 0;
 const choices = ["Pierre", "Feuille", "Ciseaux"];
 const gameStatus = document.getElementById("gameStatus");
 const gameScore = document.getElementById("gameScore");
