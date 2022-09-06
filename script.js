@@ -34,7 +34,6 @@ function runGame(userChoice) {
     gameScore.innerHTML = `Mon score: ${wins} || Ordinateur: ${loses}`;
 }
 
-
 rock.addEventListener("click", () => runGame("Pierre"));
 paper.addEventListener("click", () => runGame("Feuille"));
 scissors.addEventListener("click", () => runGame("Ciseaux"));
